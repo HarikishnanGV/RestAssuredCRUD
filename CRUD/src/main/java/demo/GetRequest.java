@@ -10,7 +10,7 @@ import static io.restassured.RestAssured.*;
 public class GetRequest {
 
 	@Test
-	public void bookingApi() {
+	public void bookingApiGetService() {
 		
 		RestAssured.baseURI="https://restful-booker.herokuapp.com";
 
